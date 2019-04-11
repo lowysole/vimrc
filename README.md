@@ -3,7 +3,7 @@
 ### 1. Clone the repository:
 
 ``
-git clone https://github.com/mcapell/vimrc.git ~/.vim
+git clone https://github.com/lowysole/vimrc.git ~/.vim
 ``
 
 ### 2. Create symlinks:

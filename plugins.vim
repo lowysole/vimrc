@@ -36,7 +36,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'jreybert/vimagit'
 
 " Language plugins
-Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 let g:pymode_rope = 1
 let g:pymode_syntax = 0
 let g:pymode_python = 'python3'

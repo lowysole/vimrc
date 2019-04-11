@@ -72,6 +72,8 @@ set hidden
 " Spell URL
 let g:spellfile_URL = 'http://ftp.vim.org/vim/runtime/spell'
 
+" Pymode
+let g:pymode_python = 'python'
 "}}}
 
 "{{{ ======= Coding Options =======
@@ -141,7 +143,7 @@ nmap <A-j> <C-w>W<C-e><C-w><C-w>W<C-e><C-w>W
 nmap <A-k> <C-w>W<C-e><C-w><C-w>W<C-y><C-w>W
 
 " Disable arrow keys to force the hands on hjkl
-let vimpureta=1
+let vimpureta=0
 if vimpureta
     map <up> <nop>
     map <down> <nop>
