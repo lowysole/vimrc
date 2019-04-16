@@ -33,9 +33,6 @@ set spelllang=ca,en,es
 set background=dark
 colorscheme gruvbox
 
-" Setting up Omnifunction
-"set omnifunc=
-
 " Unset Swap File
 set noswapfile
 
@@ -72,8 +69,6 @@ set hidden
 " Spell URL
 let g:spellfile_URL = 'http://ftp.vim.org/vim/runtime/spell'
 
-" Pymode
-let g:pymode_python = 'python'
 "}}}
 
 "{{{ ======= Coding Options =======
@@ -172,7 +167,7 @@ highlight Cursor ctermbg=235
 highlight clear OverLength
 highlight OverLength ctermbg=88 ctermfg=white guibg=#592929
 
-" <- Highlight non-ascii characters
+" <- Highlight non-ascii characters
 highlight nonascii guibg=#B398CC ctermbg=54
 
 "}}}
@@ -200,7 +195,7 @@ autocmd FileType jade setlocal shiftwidth=2 tabstop=2
 
 " ===== Python =====
 " Disable smartindent on # comments.
-autocmd FileType python inoremap # X#
+autocmd FileType python inoremap # X#
 " Highlight after 80th character
 " NOTE: Deactivated because plugin does the same
 " autocmd FileType python match OverLength /\%80v.\+/
